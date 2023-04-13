@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/62758448/231750242-3e20d1ad-59c5-4f9d-8ef5-fe5efb88c993.png)
+
 # Setup
 
 ### 1. Install dependencies
