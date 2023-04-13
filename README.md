@@ -14,6 +14,16 @@ npm i @prisma/client cors dotenv express
 npm i -D @types/cors @types/express nodemon prisma ts-node typescript
 ```
 
+Add these scripts to package.json
+
+```json
+"scripts": {
+  "dev": "nodemon index.ts",
+  "build": "tsc -b",
+  "start": "node dist/index.js"
+},
+```
+
 ### 2. Create tsconfig.json file
 
 ```json
