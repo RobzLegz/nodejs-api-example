@@ -2,9 +2,15 @@
 
 ### 1. Install dependencies
 
-1. `npm init -y`
-2. `npm i @prisma/client cors dotenv express`
-3. `npm i -D @types/cors @types/express nodemon prisma ts-node typescript`
+```
+npm init -y
+```
+```
+npm i @prisma/client cors dotenv express
+```
+```
+npm i -D @types/cors @types/express nodemon prisma ts-node typescript
+```
 
 ### 2. Create tsconfig.json file
 
@@ -42,7 +48,9 @@ dist
 
 ### 5. Set up prisma
 
-`npx prisma init`
+```
+npx prisma init
+```
 
 Update schema.prisma file
 
@@ -67,7 +75,9 @@ model Task {
 
 Update .env file with database credentials
 
-`DATABASE_URL=""`
+```
+DATABASE_URL=""
+```
 
 Create src/lib/prisma.ts file
 
